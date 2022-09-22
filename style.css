@@ -1,0 +1,59 @@
+
+body {
+  background: url(rings-of-power.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+.container {
+    background-color: rgb(255, 255, 255) ;
+    height: 500px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px; 
+}
+div {
+    text-align: center;
+  }
+  div + div {
+    margin-left: 50px;
+  }
+.block {   
+    position: relative; 
+    width: 350px;
+    height: 380px;
+    margin-top: 15%;
+    display: inline-block;
+    vertical-align: middle; 
+    font-size: 17px;   
+}
+div.row {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+.first-block {
+    background-color: blue;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+.second-block {
+    background-color: plum;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+
+
